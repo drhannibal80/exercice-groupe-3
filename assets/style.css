@@ -1,11 +1,37 @@
-<---- zone1 ---->
-<---- fin de zone 1 ---->
+body{
+    display: flex;
+} 
 
-<---- zone 2 ---->
-<---- fin de zone 2
-
-<---- zone 3 ---->
-<---- fin de zone 3 ---->
-
-<---- zone 4 ---->
-<---- fin de zone 4 ---->
+ul {
+    height: 18vh;
+    width: 100vw;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(163, 162, 162, 0.406);
+}
+li {
+    float: right;
+    margin: 50px;
+   
+}
+li a {
+    color:  #fe7389;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+    padding-right: 30px;
+}
+li a:hover {
+    background-color: grey;
+}
+#menu{
+    border: 20px ;
+    border-color: grey;
+}
+#logoP{
+    margin-top: -45px;
+   width: 15vw;
+   height: 30vh;
+}
