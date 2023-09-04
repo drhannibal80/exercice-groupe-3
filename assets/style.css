@@ -1,105 +1,50 @@
-body{
-    display: flex;
-    flex-direction: row;
-} 
+@media screen (max-width: 600x)""
 
-ul {
-    height: 18vh;
-    width: 100vw;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgba(163, 162, 162, 0.406);
-}
-li {
-    float: right;
-    margin: 50px;
-}
-li a {
-    color:  #fe7389;
-    font-size: 25px;
-    text-align: center;
-    text-decoration: none;
-    padding-right: 30px;
-}
-li a:hover {
-    background-color: grey;
-}
-#menu{
-    border: 20px ;
-    border-color: grey;
-}
-#logoP{
-    margin-top: -45px;
-   width: 15vw;
-   height: 30vh;
-}
-#galerie {
+    {}
+
+.presentation {
+    margin-left: ;
     display: flex;
-    justify-content: center;
-    font-size: 35px;
+    justify-content: space-between;
 }
-#grille {
-   width: 80%;
-   height: 120vh;
-   display: grid;
-   grid-template-columns: 1fr 1fr 1fr ;
-   grid-template-rows: 2fr 2fr 2fr 2fr ;
-   margin: auto;
-   gap: 5px; 
+
+h2 {
+    text-align: center;
+    color: #fe7389;
+    font-family: "Cooper Black";
+    font-size: 50px;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
-#blocks1 {
-   
-   grid-column:  1 /span 1;
-   grid-row: 1 /span 2; 
+
+.pres {
+    text-align: center;
+    font-family: "Cooper Black";
+    margin-bottom: 0%;
+    margin-left: 4%;
+    margin-right: 4%;
 }
-#bon1 {
-    width: 100%;
-    height: 96.8vh;
+
+.text {
+    margin-left: 42px;
+    font-family: "Cooper Black";
 }
-#bon2 {
-    width: 100%;   
+
+.gamme {
+    font-family: "Cooper Black";
+    margin-left: 7%;
 }
-#bon3 {
-    width: 100%;
-    height: 46.5vh;   
+
+.present {
+    font-family: "Cooper Black";
+    margin-left: %;
 }
-#bon4 {
-    width: 100%;
-    margin-top: -4px;
-}
-#bon5 {
-    width: 100%;
-    margin-top: -5px;
-    height: 49.5vh;
-}
-#bon6 {
-    width: 100%;
-    height: 39.5vh;
-    margin-top: -4px;
-}
-#bon7 {
-    width: 100%;
-    width: 70vh;
-    margin-top: -4px;
-}
-#bon8 {
-    width: 100%;
-    height: 79.2vh;
-    margin-top: -4px;
-}
-#bon9 {
-    width: 100%;
-    height: 39vh;
-    margin-top: -4px;
-}
-#bon10 {
-    width: 100%;
-    height: 39vh;
-    margin-top: -4px;
-}
-#blocks8 {
-    grid-column: 3 /span 1;
-    grid-row: 3 /span 4;
-}
+
+<---- zone 2 ---->
+<---- fin de zone 2
+
+<---- zone 3 ---->
+<---- fin de zone 3 ---->
+
+<---- zone 4 ---->
+<---- fin de zone 4 ---->
