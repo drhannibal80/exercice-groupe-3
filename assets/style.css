@@ -3,6 +3,8 @@ body{
 } 
 
 ul {
+    height: 18vh;
+    width: 100vw;
     list-style-type: none;
     margin: 0;
     padding: 0;
