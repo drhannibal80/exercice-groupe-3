@@ -1,11 +1,30 @@
-<---- zone1 ---->
-<---- fin de zone 1 ---->
+body{
+    display: flex;
+    justify-content: left;
+  
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color:  #fe7389;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: grey;
+}
 
-<---- zone 2 ---->
-<---- fin de zone 2
-
-<---- zone 3 ---->
-<---- fin de zone 3 ---->
-
-<---- zone 4 ---->
-<---- fin de zone 4 ---->
+#logoP{
+   width:10vw;
+   height: 20vh;
+}
