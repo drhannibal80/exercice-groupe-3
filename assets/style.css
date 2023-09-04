@@ -1,11 +1,53 @@
-<---- zone1 ---->
-<---- fin de zone 1 ---->
+@media screen (max-width: 600x)""
 
-<---- zone 2 ---->
-<---- fin de zone 2
+    {}
 
-<---- zone 3 ---->
-<---- fin de zone 3 ---->
+.presentation {
+    margin-left: ;
+    display: flex;
+    justify-content: space-between;
+}
 
-<---- zone 4 ---->
-<---- fin de zone 4 ---->
+h2 {
+    text-align: center;
+    color: #fe7389;
+    font-family: "Cooper Black";
+    font-size: 50px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.pres {
+    text-align: center;
+    font-family: "Cooper Black";
+    margin-bottom: 0%;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.text {
+    margin-left: 42px;
+    font-family: "Cooper Black";
+}
+
+.gamme {
+    font-family: "Cooper Black";
+    margin-left: 7%;
+}
+
+.present {
+    font-family: "Cooper Black";
+    margin-left: %;
+}
+
+.image {
+    width: 100%;
+}
+
+.content image {
+    grid: 1 / 1;
+}
+
+.titre {
+    color: #fe7389;
+}
