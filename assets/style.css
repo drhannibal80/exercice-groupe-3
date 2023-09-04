@@ -1,5 +1,6 @@
 body{
     display: flex;
+    flex-direction: row;
 } 
 
 ul {
@@ -14,6 +15,41 @@ ul {
 li {
     float: right;
     margin: 50px;
+}
+li a {
+    color:  #fe7389;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+    padding-right: 30px;
+}
+li a:hover {
+    background-color: grey;
+}
+#menu{
+    border: 20px ;
+    border-color: grey;
+}
+#logoP{
+    margin-top: -45px;
+   width: 15vw;
+   height: 30vh;
+}
+#galerie {
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+}
+#grille {
+   width: 80%;
+   height: 120vh;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr ;
+   grid-template-rows: 2fr 2fr 2fr 2fr ;
+   margin: auto;
+   gap: 5px; 
+}
+#blocks1 {
    
    grid-column:  1 /span 1;
    grid-row: 1 /span 2; 
@@ -63,8 +99,7 @@ li {
     height: 39vh;
     margin-top: -4px;
 }
-#logoP{
-    margin-top: -45px;
-   width: 15vw;
-   height: 30vh;
+#blocks8 {
+    grid-column: 3 /span 1;
+    grid-row: 3 /span 4;
 }
