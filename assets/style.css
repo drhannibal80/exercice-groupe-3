@@ -125,7 +125,7 @@ h2 {
 }
 
 .text {
-    margin-left: 42px;
+    margin-left: -80px;
     font-family: "Cooper Black";
 }
 
@@ -139,10 +139,12 @@ h2 {
     margin-left: %;
 }
 .image {
-    width: 100%;
+    width: 90%;
+    margin-left: 20px;
 }
 .titre {
     color: #fe7389;
+    margin-left: -100px;
 }
 
 <---- zone 2 ---->
