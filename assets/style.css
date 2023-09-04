@@ -1,8 +1,7 @@
-body{
+header{
     display: flex;
     flex-direction: row;
 } 
-
 ul {
     height: 18vh;
     width: 100vw;
@@ -103,13 +102,7 @@ li a:hover {
     grid-column: 3 /span 1;
     grid-row: 3 /span 4;
 }
-
-@media screen (max-width: 600x)""
-
-    {}
-
 .presentation {
-    margin-left: ;
     display: flex;
     justify-content: space-between;
 }
@@ -144,6 +137,12 @@ h2 {
 .present {
     font-family: "Cooper Black";
     margin-left: %;
+}
+.image {
+    width: 100%;
+}
+.titre {
+    color: #fe7389;
 }
 
 <---- zone 2 ---->
