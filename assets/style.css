@@ -1,11 +1,74 @@
-<---- zone1 ---->
-<---- fin de zone 1 ---->
+body {
+    display: flex;
+    flex-direction: column;
+}
+#galerie {
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+}
+#grille {
+   width: 80%;
+   height: 120vh;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr ;
+   grid-template-rows: 2fr 2fr 2fr 2fr ;
+   margin: auto;
+   gap: 5px; 
+}
+#blocks1 {
+   
+   grid-column:  1 /span 1;
+   grid-row: 1 /span 2; 
+}
+#bon1 {
+    width: 100%;
+    height: 96.8vh;
+}
+#bon2 {
+    width: 100%;   
+}
+#bon3 {
+    width: 100%;
+    height: 46.5vh;   
+}
+#bon4 {
+    width: 100%;
+    margin-top: -4px;
+}
+#bon5 {
+    width: 100%;
+    margin-top: -5px;
+    height: 49.5vh;
+}
+#bon6 {
+    width: 100%;
+    height: 39.5vh;
+    margin-top: -4px;
+}
+#bon7 {
+    width: 100%;
+    width: 70vh;
+    margin-top: -4px;
+}
+#bon8 {
+    width: 100%;
+    height: 79.2vh;
+    margin-top: -4px;
+}
+#bon9 {
+    width: 100%;
+    height: 39vh;
+    margin-top: -4px;
+}
+#bon10 {
+    width: 100%;
+    height: 39vh;
+    margin-top: -4px;
+}
 
-<---- zone 2 ---->
-<---- fin de zone 2
 
-<---- zone 3 ---->
-<---- fin de zone 3 ---->
-
-<---- zone 4 ---->
-<---- fin de zone 4 ---->
+#blocks8 {
+    grid-column: 3 /span 1;
+    grid-row: 3 /span 4;
+}
