@@ -4,7 +4,9 @@ body {
 header{
     display: flex;
     flex-direction: row;
-} 
+    position: sticky;
+    top: 20px;
+}
 ul {
     height: 18vh;
     width: 100vw;
@@ -19,14 +21,18 @@ li {
     margin: 50px;
 }
 li a {
-    color:  #fe7389;
+    color: white;
     font-size: 25px;
     text-align: center;
     text-decoration: none;
     padding-right: 30px;
+    transition: all 250ms ease-in-out;
 }
 li a:hover {
-    background-color: grey;
+    color: #fe7389;
+}
+li:hover {
+    transform: scale(1.3);
 }
 #menu{
     border: 20px ;
@@ -41,7 +47,7 @@ li a:hover {
     display: flex;
     justify-content: center;
     font-size: 35px;
-    margin-top: -140px;
+    margin-top: -160px;
     color: #fe7389;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -52,8 +58,8 @@ li a:hover {
    grid-template-columns: 1fr 1fr 1fr ;
    grid-template-rows: 2fr 2fr 2fr 2fr ;
    margin: auto;
-   gap: 5px;
-   margin-top: 20px; 
+   transition: all 250ms ease-in-out;
+   margin-top: 20px;
 }
 #blocks1 {
    
@@ -64,52 +70,83 @@ li a:hover {
     width: 100%;
     height: 96.8vh;
 }
+#bon1:hover {
+    opacity: calc(50%);
+}
 #bon2 {
     width: 100%;   
+}
+#bon2:hover {
+    opacity: calc(50%);
 }
 #bon3 {
     width: 100%;
     height: 46.5vh;   
 }
+#bon3:hover {
+    opacity: calc(50%);
+}
 #bon4 {
     width: 100%;
+    height: 49.4vh;
     margin-top: -4px;
+}
+#bon4:hover {
+    opacity: calc(50%);
 }
 #bon5 {
     width: 100%;
     margin-top: -5px;
     height: 49.5vh;
 }
+#bon5:hover {
+    opacity: calc(50%);
+}
 #bon6 {
     width: 100%;
     height: 39.5vh;
     margin-top: -4px;
+}
+#bon6:hover {
+    opacity: calc(50%);
 }
 #bon7 {
     width: 100%;
     width: 70vh;
     margin-top: -4px;
 }
+#bon7:hover {
+    opacity: calc(50%);
+}
 #bon8 {
     width: 100%;
-    height: 79.2vh;
+    height: 78.8vh;
     margin-top: -4px;
+}
+#bon8:hover {
+    opacity: calc(50%);
 }
 #bon9 {
     width: 100%;
     height: 39vh;
     margin-top: -4px;
 }
+#bon9:hover {
+    opacity: calc(50%);
+}
 #bon10 {
     width: 100%;
     height: 39vh;
     margin-top: -4px;
 }
+#bon10:hover {
+    opacity: calc(50%);
+}
 #blocks8 {
     grid-column: 3 /span 1;
     grid-row: 3 /span 4;
 }
-.presentation {
+#presentation {
     display: flex;
     justify-content: space-between;
 }
@@ -171,12 +208,12 @@ h2 {
     border: 1px solid #000;
     border-radius: 4px;
     cursor: pointer;
-  }
+}
   
-  input[type=submit]:hover {
-    background-color: #ccc;
-  }
-  textarea {
+input[type=submit]:hover {
+    background-color: #fe7389 ;
+}
+textarea {
     width: 85%;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -185,7 +222,7 @@ h2 {
     padding: 14px 20px;
     margin: 8px 0;
     cursor: pointer;
-  }
+}
 #formulaire {
     margin-top: 460px;
     display: flex;
@@ -212,6 +249,7 @@ h2 {
 }
 .com{
     font-size: 10px;
+    color: white;
 }
 .icon{
     display: flex;
@@ -219,15 +257,20 @@ h2 {
     margin-top: -10vh;
     font-size: 15vh;
     transition: all 125ms ease-in-out;
+    color: white;
 }
 #fb:hover{
     transform: scale(1.2) rotate(-10deg);
+    color: #3b5998;
+    
 }
 #inst:hover{
     transform: scale(1.2) rotate(-10deg);
+    color: #222222;
 }
 #snap:hover{
     transform: scale(1.2) rotate(-10deg);
+    color:rgb(255,252,0) ;
 }
 
 .contact{
@@ -235,4 +278,5 @@ h2 {
     justify-content: right;
     margin-top: -20vh;
     margin-right: 5vh;
+    color: white;
 }
