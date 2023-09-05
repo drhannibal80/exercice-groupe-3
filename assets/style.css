@@ -149,7 +149,7 @@ h2 {
     color: #fe7389;
     margin-left: -100px;
 }
-input[type=text], select {
+  input[type=text], select {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
