@@ -7,6 +7,7 @@
     <title>Exercice groupe3</title>
     <link rel="stylesheet" href="assets/style.css">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" media="screen and (max-width: 375px)" href="small_resolution.css" />
 </head>
 <body>
     <header>
@@ -20,11 +21,22 @@
                         <li><a href="#footer">A propos de nous</a></li>
                         </span>
                 </ul>
-            </div> 
+            </div>
+            <div class="menuBurger">
+                <input type="checkbox" id="hamburger">
+                <label id="hamburger-logo" for="hamburger">☰</label>
+                <!-- Le reste du menu -->
+                <nav>
+                  <a href="#presentation">Présentation de l'entreprise</a>
+                  <a href="#grille">Galeries de photos</a>
+                  <a href="#formulaire">Contact</a>
+                  <a href="#footer">A propos de nous</a>
+                </nav>
+              </div> 
     </header>
     <main>
             <div>
-                <h2>Bon-bon, les experts du bon</h2>
+                <h2>Bon-bon, les experts du sucré</h2>
                 <p class="pres">
                     Bienvenue chez Bon-bon, l'entreprise de confiseries qui transforme chaque instant en une expérience
                     sucrée inoubliable ! <br>
@@ -36,7 +48,7 @@
             </div>
             <div id="presentation">
                 <div>
-                    <img class="image" src="assets/img/Logo Bon-bon 1.png" alt="Logo Bon-bon">
+                    <img class="image" src="assets/img/Logo Bon-bon 1.png" id="logopres" alt="Logo Bon-bon">
                 </div>
                 <div>
                     <p class="text">
@@ -80,7 +92,7 @@
                 </div>
             </div>
             <div id="galerie">
-                <h2>Galeries photos :</h2>
+                <h2>Galerie photos</h2>
             </div>
             <div id="grille">
                 <div id="blocks1">
@@ -98,7 +110,7 @@
                 <div id="blocks5">
                     <img id="bon5" src="assets/img/bonbon7.jpg" alt="">
                 </div>
-                <div id="blocks5">
+                <div id="blocks6">
                     <img id="bon6" src="assets/img/sucette1.jpg" alt="">
                 </div>
                 <div id="blocks7">
@@ -116,7 +128,7 @@
             </div>
             <div id="formulaire">
             <div>
-               <h2>Formulaire de contact :</h2>
+               <h2>Formulaire de contact</h2>
             </div>
             <div id="form">
                <form action="/action_page.php">

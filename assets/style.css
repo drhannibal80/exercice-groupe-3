@@ -43,6 +43,55 @@ li:hover {
    width: 15vw;
    height: 30vh;
 }
+
+
+.menuBurger{
+    display: none;
+    position: fixed;
+    width: 0px;
+}
+#hamburger {
+    display: none;
+}
+#hamburger-logo {
+    cursor: pointer;
+    background: #fe7389;
+    width: 200px;
+    display: block;
+    color: white;
+    text-align: right;
+    transform: translateX(-168px);
+    padding: 10px;
+}
+  
+nav {
+    display: flex;
+    flex-direction: column;
+    background: #fe7389;
+    overflow: hidden;
+    width: 200px;
+    transform: translateX(-200px);
+}
+  
+#hamburger-logo,
+nav {
+    transition: 0.7s;
+}
+  
+  #hamburger:checked ~ #hamburger-logo,
+  #hamburger:checked ~ nav {
+    transform: translate(0);
+}
+  
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+  
+nav a:hover {
+    background: #fe7389;
+}
 #galerie {
     display: flex;
     justify-content: center;
@@ -156,16 +205,17 @@ h2 {
     color: #fe7389;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 50px;
-    margin-top: 1%;
-    margin-bottom: 1%;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    justify-content: center;
 }
 
 .pres {
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-bottom: 0%;
-    margin-left: 4%;
-    margin-right: 4%;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
     font-weight: bold;
 }
 
@@ -177,7 +227,7 @@ h2 {
 
 .gamme {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-left: 7%;
+    margin-left: 5px;
     font-weight: bold;
 }
 
@@ -185,7 +235,7 @@ h2 {
     font-family: "Cooper Black";
 }
 .image {
-    width: 90%;
+    width: 35vw;
     margin-left: 20px;
     margin-top: -55px;
     transition: all 450ms ease-in-out;
@@ -195,7 +245,7 @@ h2 {
 }
 .titre {
     color: #fe7389;
-    margin-left: -100px;
+    margin-left: -80px;
 }
   input[type=text], select {
     width: 100%;
@@ -289,4 +339,38 @@ textarea {
     margin-top: -20vh;
     margin-right: 5vh;
     color: white;
+}
+@media all and (max-width: 320px) {
+body {display: flex;width: 100%;margin-right: 80px; flex-direction: column !important;}
+h2 {font-size: 33px;margin-top: 10px; display: flex;width: 100%; margin-left: 25px !important;}
+main {display: flex;flex-direction: column; margin-top: 180px !important;}
+.pres {display: flex;margin-left: 25px;width: 100% !important;}
+.text {display: flex;flex-direction: row;margin-right: 180px; margin-left: -100px;width: 100%; font-size: 20px !important;}
+.gamme {display: flex;margin-top: 10px; flex-direction: column;width: 100%; margin-left: -95px !important;}
+.titre {display: flex;width: 100%;margin-left: -20px;font-size: 20px !important;}
+#galerie { margin-top: 30px !important;}
+#bon1 {display: flex;width: 150%;height: 400px; margin-right: 300px;margin-left: -80px !important;}
+#bon2 {display: flex;width: 925%;height: 200px; margin-left: -40px !important;}
+#bon4 {display: flex;width: 925%; height: 200px; margin-top: 0px;margin-left: -40px !important;}
+#bon6 {display: flex;width: 180%;margin-top: 0px;margin-left: -45px !important;}
+#bon9 {display: flex;width: 100%;margin-left: -40px;margin-top: 0px !important;}
+#bon8 {display: flex;width: 957%; margin-top: 0px; margin-left: -58px !important;}
+footer {margin-left: 12.5px;}
+#formulaire {display: flex;margin-top: 150px;}
+#form {display: flex;margin-left: 25px;}
+#logoF {width: 30%;margin-left: 10px;margin-top: 0px;}
+#fb {width: 50%;}
+.contact {display: flex;color: #000000; font-size: 13px;margin-top: -250px;margin-right: 15px;}
+.com {color: #000000;margin-top: 0px;}
+.icon {display: flex;margin-top: -40px;}
+.menuBurger {display: block;}
+.image {display: flex;width: 100%; margin-left: 180px; margin-top: -660px;}
+}
+@media all and (min-width:320px) and (max-width:800px) {
+    
+    .nav {display: none !important;}
+    #bon3 {display: none !important;}
+    #bon5 {display: none !important;}
+    #bon7 {display: none !important;}
+    #bon10 {display: none !important;}
 }
