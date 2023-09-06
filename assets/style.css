@@ -35,9 +35,60 @@ li a:hover {
 }
 #logoP{
     margin-top: -45px;
-   width: 15vw;
-   height: 30vh;
+    width: 15vw;
+    height: 30vh;
 }
+.menuBurger{
+    display: none;
+    position: fixed;
+    width: 0px;
+}
+  main {
+    margin-left: 50px;
+    width: 500px;
+    text-align: justify;
+} 
+  #hamburger {
+    display: none;
+}
+  #hamburger-logo {
+    cursor: pointer;
+    background: black;
+    width: 200px;
+    display: block;
+    color: white;
+    text-align: right;
+    transform: translateX(-168px);
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    background: black;
+    overflow: hidden;
+    width: 200px;
+    transform: translateX(-200px);
+}
+
+#hamburger-logo, nav {
+    transition: 0.7s;
+}
+
+#hamburger:checked ~ #hamburger-logo, #hamburger:checked ~ nav {
+    transform: translate(0);
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav a:hover {
+    background: #fe7389;
+}
+
 /* xuan - nam */
 .presentation {
     display: flex;
