@@ -9,7 +9,7 @@ header{
 }
 ul {
     height: 18vh;
-    width: 100vw;
+    width: 98vw;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -294,7 +294,7 @@ textarea {
 }
 .foot {
     height: 35vh;
-    width: 100vw;
+    width: 98vw;
     margin-top:5vh;
     background-color: rgba(163, 162, 162, 0.406);
     color: #fe7389;
@@ -350,23 +350,23 @@ main {display: flex;flex-direction: column; margin-top: 180px !important;}
 .titre {display: flex;width: 100%;margin-left: -20px;font-size: 20px !important;}
 #galerie { margin-top: 30px !important;}
 #bon1 {display: flex;width: 150%;height: 400px; margin-right: 300px;margin-left: -80px !important;}
-#bon2 {display: flex;width: 925%;height: 200px; margin-left: -40px !important;}
-#bon4 {display: flex;width: 925%; height: 200px; margin-top: 0px;margin-left: -40px !important;}
+#bon2 {display: flex;width: 925%;height: 200px; margin-left: -30px !important;}
+#bon4 {display: flex;width: 925%; height: 200px; margin-top: 0px;margin-left: -30px !important;}
 #bon6 {display: flex;width: 180%;margin-top: 0px;margin-left: -45px !important;}
-#bon9 {display: flex;width: 100%;margin-left: -40px;margin-top: 0px !important;}
-#bon8 {display: flex;width: 957%; margin-top: 0px; margin-left: -58px !important;}
-footer {margin-left: 12.5px;}
-#formulaire {display: flex;margin-top: 150px;}
-#form {display: flex;margin-left: 25px;}
-#logoF {width: 30%;margin-left: 10px;margin-top: 0px;}
-#fb {width: 50%;}
-.contact {display: flex;color: #000000; font-size: 13px;margin-top: -250px;margin-right: 15px;}
-.com {color: #000000;margin-top: 0px;}
-.icon {display: flex;margin-top: -40px;}
-.menuBurger {display: block;}
-.image {display: flex;width: 100%; margin-left: 180px; margin-top: -660px;}
+#bon9 {display: flex;width: 102%;margin-left: -40px;margin-top: 0px !important;}
+#bon8 {display: flex;width: 957%; margin-top: 0px; margin-left: -53px !important;}
+footer {margin-left: 32px !important;}
+#formulaire {display: flex;margin-top: 150px !important;}
+#form {display: flex;margin-left: 55px !important;}
+#logoF {width: 30%;margin-left: 10px;margin-top: 0px !important;}
+#fb {width: 50% !important;}
+.contact {display: flex;color: #000000; font-size: 13px;margin-top: -250px;margin-right: 15px !important;}
+.com {color: #000000;margin-top: 0px !important;}
+.icon {display: flex;margin-top: -40px !important;}
+.menuBurger {display: block !important;}
+.image {display: flex;width: 100%; margin-left: 180px; margin-top: -660px !important;}
 }
-@media all and (min-width:320px) and (max-width:800px) {
+@media all and (min-width:320px) and (max-width:1080px) {
     
     .nav {display: none !important;}
     #bon3 {display: none !important;}
